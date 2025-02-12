@@ -1,210 +1,86 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": []
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "code",
-      "source": [
-        "import json\n",
-        "from collections import Counter\n",
-        "import pandas as pd"
-      ],
-      "metadata": {
-        "id": "0Ad6AviLh2CS"
-      },
-      "execution_count": 7,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "def load_dataset(file_path):\n",
-        "    with open(file_path, \"r\") as file:\n",
-        "        data = json.load(file)\n",
-        "    return data"
-      ],
-      "metadata": {
-        "id": "TkzRfjudhxQ2"
-      },
-      "execution_count": 8,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "def extract_latent_features(data):\n",
-        "  prompts_data = {}\n",
-        "  for prompt_id, prompt_data in data.items():\n",
-        "    features_list_unsafe = {}\n",
-        "    features_list_safe = {}\n",
-        "    features_list = []\n",
-        "    if \"unsafe_latent_info\" in prompt_data and \"latents\" in prompt_data[\"unsafe_latent_info\"]:\n",
-        "      for feature,value in prompt_data[\"unsafe_latent_info\"][\"latents\"].items():\n",
-        "        features_list_unsafe[feature] = value.get('act_score',0)\n",
-        "      features_list.append(features_list_unsafe)\n",
-        "    if \"safe_latent_data\" in prompt_data and \"latents\" in prompt_data[\"safe_latent_data\"]:\n",
-        "      for feature, value in prompt_data[\"safe_latent_data\"][\"latents\"].items():\n",
-        "        features_list_safe[feature] = value.get('act_score',0)\n",
-        "      features_list.append(features_list_safe)\n",
-        "    prompts_data[prompt_id] = features_list\n",
-        "  return prompts_data\n"
-      ],
-      "metadata": {
-        "id": "IaVnClboMUW4"
-      },
-      "execution_count": 104,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "file_path = \"/content/dataset_latent_autointep_dataset_v2_info.json\"\n",
-        "data = load_dataset(file_path)"
-      ],
-      "metadata": {
-        "id": "A3PLhVzeBhwq"
-      },
-      "execution_count": 105,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "prompt_features = extract_latent_features(data)"
-      ],
-      "metadata": {
-        "id": "93Lf3ldODNLj"
-      },
-      "execution_count": 120,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "unsafe_prompts_features = [{'ID':prompt_id,'Features':features_list[0]}  for prompt_id, features_list in prompt_features.items() if len(features_list) > 0]\n",
-        "safe_prompts_features = [{'ID':prompt_id,'Features':features_list[1]} for prompt_id, features_list in prompt_features.items() if len(features_list) > 0]\n",
-        "\n",
-        "df_harmful_features = pd.DataFrame(unsafe_prompts_features, columns=[\"ID\", \"Features\"])\n",
-        "df_harmless_features = pd.DataFrame(safe_prompts_features, columns=[\"ID\", \"Features\"])"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "Vrt0cuVS9uym",
-        "outputId": "f2aa4f27-e6bd-4a80-bce6-363a5f368a84"
-      },
-      "execution_count": 127,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "         ID                                           Features\n",
-            "0  prompt_1  {'6631': 2528.1, '11527': 189.59, '994': 65.3,...\n",
-            "1  prompt_2  {'6631': 2565.0, '11527': 225.16, '8684': 260....\n",
-            "2  prompt_3  {'6631': 2486.13, '7933': 102.38, '4817': 188....\n",
-            "3  prompt_4  {'6631': 2545.57, '7576': 103.2, '11092': 79.3...\n",
-            "4  prompt_5  {'6631': 2690.91, '11795': 178.62, '1392': 107...\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "def get_common_features(df1, df2):\n",
-        "\n",
-        "  # Merge DataFrames\n",
-        "  merged_df = df1.merge(df2, on='ID', suffixes=('_df1', '_df2'))\n",
-        "\n",
-        "  # Function to get common keys for each prompt\n",
-        "  def get_common_keys(row):\n",
-        "      keys_df1 = set(row['Features_df1'].keys()) if isinstance(row['Features_df1'], dict) else set()\n",
-        "      keys_df2 = set(row['Features_df2'].keys()) if isinstance(row['Features_df2'], dict) else set()\n",
-        "      return list(keys_df1 & keys_df2)  # Intersection of keys\n",
-        "\n",
-        "\n",
-        "  # print(merged_df)\n",
-        "  merged_df['common_keys'] = merged_df.apply(get_common_keys, axis=1)\n",
-        "  # Display result\n",
-        "  result = merged_df[['ID', 'common_keys']]\n",
-        "  return result\n"
-      ],
-      "metadata": {
-        "id": "0OXISrO-KmS-"
-      },
-      "execution_count": 146,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "common_features_df = get_common_features(df_harmful_features,df_harmless_features)"
-      ],
-      "metadata": {
-        "id": "EPum4yz2Pv66"
-      },
-      "execution_count": 148,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "common_features_df.to_csv('common_features.csv', index=False)"
-      ],
-      "metadata": {
-        "id": "VP6SvrdfP0cE"
-      },
-      "execution_count": 151,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "len(common_features_df)"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "r26KSlQRTqRQ",
-        "outputId": "8181dd75-db19-41ab-9cc1-95bc88e4d9f2"
-      },
-      "execution_count": 150,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "85"
-            ]
-          },
-          "metadata": {},
-          "execution_count": 150
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [],
-      "metadata": {
-        "id": "mTDMivjJT2Qw"
-      },
-      "execution_count": null,
-      "outputs": []
-    }
-  ]
-}
+ID,common_keys
+prompt_1,"['3442', '2668', '12935', '6631']"
+prompt_2,"['994', '11527', '5421', '6631', '8684', '12935', '4442', '456', '2718', '1858']"
+prompt_3,"['9982', '6631', '4817', '3442', '12935', '7933', '4442', '1129']"
+prompt_4,"['3442', '9664', '12935', '6631']"
+prompt_5,"['6853', '6631', '5807', '12935', '2282', '11795', '1392', '142', '10881', '14852']"
+prompt_6,"['9982', '3586', '6631', '6924', '5681']"
+prompt_7,"['11527', '7400', '6631', '3442', '12935']"
+prompt_8,"['5225', '9664', '6631']"
+prompt_9,"['2697', '11527', '4683', '7846', '13389', '6631', '12935', '517', '15509', '10021', '13805', '14537', '6868', '1513', '1858']"
+prompt_10,"['14537', '1858', '12935', '6631']"
+prompt_11,"['12935', '6631']"
+prompt_12,"['4442', '12935', '6631']"
+prompt_13,"['7628', '713', '16123', '6631', '11121', '8535', '1646', '12935', '15375', '6840', '12261', '10881', '137', '3344']"
+prompt_14,"['1858', '14990', '6631']"
+prompt_15,"['994', '11527', '6631', '12935', '5627', '15319']"
+prompt_16,"['11527', '12935', '6631']"
+prompt_17,"['9982', '12935', '6631']"
+prompt_18,"['7576', '11092', '12935', '6631']"
+prompt_19,"['9982', '7400', '2668', '6631', '4674', '4863', '16303', '3866', '188', '12935', '4223', '5426', '7576', '11092']"
+prompt_20,"['12706', '6631', '3442', '12935', '11092', '9248', '7576', '2954']"
+prompt_21,"['12706', '6631', '3442', '12935', '8993', '7576', '11092']"
+prompt_22,"['3442', '8356', '12935', '6631']"
+prompt_23,"['9982', '12706', '12238', '6631', '3442', '12935', '4422', '2222', '7576', '14537', '11092']"
+prompt_24,"['6631', '188', '12935', '14537', '7441']"
+prompt_25,"['9944', '12706', '14994', '6631', '3442', '13186', '12935', '7576', '13153', '11092']"
+prompt_26,"['6631', '10318', '3442', '12935', '12261']"
+prompt_27,"['9982', '12706', '6631', '3442', '12935', '4422', '7576', '11092']"
+prompt_28,"['9982', '12706', '6631', '3442', '12935', '11092', '7576', '7023']"
+prompt_29,"['9982', '165', '12935', '6631']"
+prompt_30,"['12706', '6631', '165', '7576', '11092']"
+prompt_31,"['8183', '6631', '3442', '12935', '7933', '2222', '3459', '6884']"
+prompt_32,"['994', '11527', '9982', '5421', '8684', '6631', '10810', '12935', '456', '1858']"
+prompt_33,"['6631', '241', '12935', '4223', '11325', '12261', '15596']"
+prompt_34,"['6027', '12935', '6631']"
+prompt_35,"['139', '9982', '16227', '2843', '9256', '7449', '6631', '16212', '11795', '1392', '13346', '623', '10881', '10192', '1858']"
+prompt_36,"['994', '11527', '9982', '6631', '3442', '12935', '10605', '12082']"
+prompt_37,"['994', '11527', '10873', '6027', '7431', '9614', '6631', '7222', '3442', '3113', '12935']"
+prompt_38,['6631']
+prompt_39,"['6631', '8535', '12935', '7441', '1934', '1858']"
+prompt_40,"['4442', '13186', '6631']"
+prompt_41,"['9982', '11527', '6631', '15238', '5482', '3442', '12935', '6840', '4442', '12261']"
+prompt_42,"['12995', '12706', '6631', '3442', '1392', '6840', '4442', '7576', '12261', '11092']"
+prompt_43,"['14537', '6631']"
+prompt_44,"['8722', '7431', '14537', '6631']"
+prompt_45,"['1858', '7400', '6631']"
+prompt_46,"['994', '11527', '9982', '6631', '9584', '12935']"
+prompt_47,"['7588', '7400', '6631', '8957', '12935', '4223', '5213', '13338']"
+prompt_48,"['4442', '12935', '6631']"
+prompt_49,"['12706', '6631', '12935', '11092', '1858']"
+prompt_50,"['994', '11527', '6631', '8684', '12935', '4442', '5769', '2361']"
+prompt_51,"['10650', '7400', '12935', '6631']"
+prompt_52,"['3442', '12706', '12935', '6631']"
+prompt_53,"['9614', '6631', '3442', '12935', '8406']"
+prompt_54,"['11527', '6631', '14132', '3840', '15282', '12935', '10734']"
+prompt_55,['6631']
+prompt_56,"['9584', '12706', '12935', '6631']"
+prompt_57,"['9982', '7400', '6631', '12401', '1858']"
+prompt_58,"['994', '11527', '6631', '8684', '12935', '2351', '2718']"
+prompt_59,"['9982', '5665', '9362', '13186', '4326', '15509', '14086', '10881', '7400', '8684', '12442', '2229', '6214', '2361', '12726', '15188', '10461', '9192', '8976', '2005', '6631', '9438', '11795', '2368', '4537', '10605']"
+prompt_60,"['994', '7400', '5421', '6631', '7474', '2718', '12935', '13279', '15994']"
+prompt_61,"['12706', '6631', '3442', '12935', '1392', '7576', '11092']"
+prompt_62,"['12706', '6631', '3442', '10033', '13186', '7576', '12082', '8707', '11092']"
+prompt_63,"['9982', '7400', '9614', '6631', '10816', '11795', '1713', '5396', '15509', '11103', '2538']"
+prompt_64,"['994', '11527', '9982', '6631', '3442', '12935']"
+prompt_65,"['9982', '8183', '4744', '14787', '6631', '7449', '12935', '7933', '2538', '12401']"
+prompt_66,"['994', '11527', '7431', '7222', '6631', '12935', '13470']"
+prompt_67,"['571', '7400', '14994', '6631', '14977', '188', '12935', '4223', '1392', '14743', '8993', '11545', '5816', '10881']"
+prompt_68,"['994', '11527', '6631', '8684', '3442', '12935']"
+prompt_69,"['7751', '6631', '3442', '12935', '14537', '7576', '11092']"
+prompt_70,"['12706', '7400', '6631', '3442', '12935', '14537', '7576', '8356', '11092']"
+prompt_71,"['12985', '6631', '4223', '4038', '16123', '918']"
+prompt_72,"['3442', '8681', '12706', '6631']"
+prompt_73,"['3442', '12935', '6631']"
+prompt_74,"['9982', '6631', '3442', '188', '12935', '8820']"
+prompt_75,"['9982', '6631', '12935', '5816', '14924']"
+prompt_76,"['2697', '9982', '12238', '6631', '12544', '9192', '11795']"
+prompt_77,"['12706', '6631', '3442', '188', '13186', '12935', '7576', '11092']"
+prompt_78,"['11092', '12706', '7576', '6631']"
+prompt_79,"['994', '11527', '5421', '6631', '12935', '8993']"
+prompt_80,"['3442', '12935', '6631']"
+prompt_81,"['994', '11527', '6027', '7431', '6631', '8684', '3442', '2718', '3474', '12261', '9470', '11434']"
+prompt_82,"['12706', '6631', '3442', '12935', '1392', '7576', '5816', '11092']"
+prompt_83,"['12706', '12083', '6631', '3442', '12935', '7576', '12261', '11092']"
+prompt_84,"['12706', '6631', '3442', '188', '12935', '7576', '11092']"
+prompt_85,"['12706', '6631', '3442', '13186', '12935', '13583', '7576', '11092']"
