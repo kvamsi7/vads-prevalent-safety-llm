@@ -1,0 +1,11 @@
+{
+    "release": "gemma-scope-2b-pt-res-canonical",
+    "sae_id": "layer_19/width_65k/canonical",
+    "model": "gemma-2-2b",
+    "max_new_tokens": 100,
+    "temperature": 0.7,
+    "freq_penalty": 2.0,
+    "unsafe_steering_coefficient": -150,
+    "safe_steering_coefficient":150,
+    "strength_multiple":1
+}
