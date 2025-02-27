@@ -33,10 +33,12 @@ def steering_hook(
 ) -> torch.Tensor:
     """
     Applies latent-based steering adjustment by modifying activations.
+    Supports multiple latent indices in one function.
     """
     steering_coefficient = strength_multiple * steering_strength
-    steering_vector = sae.W_dec[feature_index]  # Get latent vector
-    return activations + steering_coefficient * steering_vector  # Apply steering
+    for latent_idx in feature_index:
+        activations += sae.W_dec[latent_idx] * steering_coefficient # Get latent vector
+    return activations   # Apply steering
 
 #  Generate with Steering
 def generate_with_steering(
