@@ -1,0 +1,11 @@
+{
+    "model": "gemma-2-2b",
+    "release": "gemma-scope-2b-pt-res-canonical",
+    "sae_id": "layer_20/width_16k/canonical",
+    "batch_size": 5,
+    "top_k_latents": 10,
+    "dataset": {
+        "input_path": "workspace/vads-prevalent-safety-llm/data/raw/new_data_conversion_prompts.json",
+        "output_path": "workspace/vads-prevalent-safety-llm/data/processed/formatted_latents_db_v_sample.json"
+    }
+}
