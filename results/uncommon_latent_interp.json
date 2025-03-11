@@ -1,0 +1,2279 @@
+[
+    {
+        "ID": "prompt1",
+        "uncommon_latents": [
+            "9932",
+            "3866",
+            "4863",
+            "4223",
+            "7576",
+            "5426",
+            "2668",
+            "7417",
+            "7656",
+            "5264"
+        ],
+        "latent_autointerp": {
+            "9932": " words related to stopping or halting actions, particularly in the context of traffic signs or commands",
+            "3866": "phrases related to credit reporting and consumer rights",
+            "4863": "instances of the word \"go\" and its variations",
+            "4223": "questions and conditional statements related to requirements and criteria",
+            "7576": " interrogative phrases or questions",
+            "5426": " references to collaboration and collective effort in various contexts",
+            "2668": "phrases indicating the absence or lack of something",
+            "7417": " instances of the word \"write\" and its variations",
+            "7656": "phrases related to effort and attempts",
+            "5264": "terms related to financial agreements and obligations"
+        }
+    },
+    {
+        "ID": "prompt2",
+        "uncommon_latents": [
+            "9248",
+            "14005",
+            "2954",
+            "2296",
+            "12544",
+            "6889",
+            "2668"
+        ],
+        "latent_autointerp": {
+            "9248": " phrases indicating the passage of time or events occurring in the past",
+            "14005": " variations of the word \"catch.\"",
+            "2954": "terms related to buying or purchasing",
+            "2296": "descriptions of sports matches or events.",
+            "12544": "references to general concepts or ideas",
+            "6889": "references to the availability and submission of apps on various platforms",
+            "2668": "phrases indicating the absence or lack of something"
+        }
+    },
+    {
+        "ID": "prompt3",
+        "uncommon_latents": [
+            "8576",
+            "9982",
+            "2760",
+            "4674",
+            "6027"
+        ],
+        "latent_autointerp": {
+            "8576": " instances of the definite article \"the\" in various contexts",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "2760": "keywords and phrases related to pricing and cost",
+            "4674": "terms related to payment or financial transactions",
+            "6027": " instances of the word \"for.\""
+        }
+    },
+    {
+        "ID": "prompt4",
+        "uncommon_latents": [
+            "9982",
+            "11092",
+            "4422",
+            "7576"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "4422": "instances of the word \"hit\" in various contexts",
+            "7576": " interrogative phrases or questions"
+        }
+    },
+    {
+        "ID": "prompt5",
+        "uncommon_latents": [
+            "11778",
+            "5396",
+            "7846",
+            "14111",
+            "439",
+            "5104",
+            "7271",
+            "7431",
+            "7997",
+            "6027",
+            "4351",
+            "10873",
+            "7656",
+            "125",
+            "11795",
+            "4537"
+        ],
+        "latent_autointerp": {
+            "11778": "terms related to market dynamics and competition",
+            "5396": "the presence of personal pronouns",
+            "7846": " phrases and references to data and reporting",
+            "14111": " instances of the word \"find\" and its variants",
+            "439": "repetitions of the word \"can\"",
+            "5104": "phrases that suggest recommendations or advice",
+            "7271": "phrases and questions related to location or seeking information about places",
+            "7431": " phrases that include variations of the word \"some.\"",
+            "7997": "terms related to online activities or services",
+            "6027": " instances of the word \"for.\"",
+            "4351": "references to quantities or statistics",
+            "10873": "sentences beginning with the subject \"I.\"",
+            "7656": "phrases related to effort and attempts",
+            "125": "financial terms and conditions related to credit cards and payments",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "4537": " phrases expressing uncertainty or requests for help"
+        }
+    },
+    {
+        "ID": "prompt6",
+        "uncommon_latents": [
+            "10088",
+            "5816",
+            "8707",
+            "3442",
+            "11545"
+        ],
+        "latent_autointerp": {
+            "10088": "various forms and references to friendship",
+            "5816": " instances of code and programming syntax",
+            "8707": "verbs related to obtaining or receiving assistance or feedback",
+            "3442": "questions and inquiries throughout the text",
+            "11545": " instances of possessive forms and plurality in nouns"
+        }
+    },
+    {
+        "ID": "prompt7",
+        "uncommon_latents": [
+            "9982",
+            "2954",
+            "5426",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text",
+            "2954": "terms related to buying or purchasing",
+            "5426": " references to collaboration and collective effort in various contexts",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt8",
+        "uncommon_latents": [
+            "836",
+            "11092",
+            "13334",
+            "7576",
+            "12706",
+            "8707",
+            "7656"
+        ],
+        "latent_autointerp": {
+            "836": "terms associated with scams and fraudulent practices",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "13334": "references to data privacy and personal information security",
+            "7576": " interrogative phrases or questions",
+            "12706": "questions about how to perform tasks or actions",
+            "8707": "verbs related to obtaining or receiving assistance or feedback",
+            "7656": "phrases related to effort and attempts"
+        }
+    },
+    {
+        "ID": "prompt9",
+        "uncommon_latents": [
+            "5816",
+            "6295",
+            "14130",
+            "4629",
+            "125",
+            "3442",
+            "11545"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "6295": "terms related to motherhood and fatherhood",
+            "14130": "references to copying and reproduction in various contexts",
+            "4629": "forms of the verb \"make\" in various contexts",
+            "125": "financial terms and conditions related to credit cards and payments",
+            "3442": "questions and inquiries throughout the text",
+            "11545": " instances of possessive forms and plurality in nouns"
+        }
+    },
+    {
+        "ID": "prompt10",
+        "uncommon_latents": [
+            "7699",
+            "5816",
+            "1392"
+        ],
+        "latent_autointerp": {
+            "7699": " the phrase \"into\" in various contexts",
+            "5816": " instances of code and programming syntax",
+            "1392": "references to people asking questions or seeking help"
+        }
+    },
+    {
+        "ID": "prompt11",
+        "uncommon_latents": [
+            "5816",
+            "8310",
+            "11092",
+            "1392",
+            "7576",
+            "12706",
+            "11545",
+            "13113"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "8310": "terms related to payment processing and financial transactions",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "1392": "references to people asking questions or seeking help",
+            "7576": " interrogative phrases or questions",
+            "12706": "questions about how to perform tasks or actions",
+            "11545": " instances of possessive forms and plurality in nouns",
+            "13113": "terms related to the \"get\" function in programming contexts"
+        }
+    },
+    {
+        "ID": "prompt12",
+        "uncommon_latents": [
+            "662",
+            "2954",
+            "2222"
+        ],
+        "latent_autointerp": {
+            "662": "references to the Internet and online activities",
+            "2954": "terms related to buying or purchasing",
+            "2222": "features or characteristics of academic research articles."
+        }
+    },
+    {
+        "ID": "prompt13",
+        "uncommon_latents": [
+            "10088",
+            "8372",
+            "15596",
+            "14537",
+            "12039",
+            "14821",
+            "10578",
+            "13186",
+            "3513",
+            "808",
+            "5816",
+            "2351",
+            "4291",
+            "13012",
+            "1392",
+            "15282",
+            "15266",
+            "8399",
+            "10461",
+            "1206",
+            "8934",
+            "1973",
+            "8032",
+            "5627",
+            "517",
+            "11795",
+            "8751",
+            "12726",
+            "2229",
+            "2669",
+            "9982",
+            "7400",
+            "15509",
+            "3141",
+            "2478",
+            "6887",
+            "2222",
+            "1858",
+            "10648",
+            "11666",
+            "16331",
+            "9192",
+            "6840",
+            "12569"
+        ],
+        "latent_autointerp": {
+            "10088": "various forms and references to friendship",
+            "8372": "instances of the word \"show\" or variations thereof in various contexts",
+            "15596": "past and present tense forms of the verb \"to be\" in various contexts",
+            "14537": "repeated occurrences of the word \"the\" in various contexts",
+            "12039": "references to video and media content",
+            "14821": " terms related to \"night\" and nightlife",
+            "10578": "specific time-related phrases or expressions",
+            "13186": "possessive pronouns and related expressions indicating ownership",
+            "3513": "phrases and terms related to phone calls and communication requests",
+            "808": "exclamatory punctuation and expressions of strong emotion",
+            "5816": " instances of code and programming syntax",
+            "2351": "articles and demonstrative adjectives emphasizing the indefinite article \"an.\"",
+            "4291": "terms related to contact information and communication",
+            "13012": "descriptions of distinct vocal qualities and their effects on perception",
+            "1392": "references to people asking questions or seeking help",
+            "15282": "commands or prompts to think critically and reflectively",
+            "15266": "legal terminology and formal agreements or statements",
+            "8399": "instances of the word \"through\" in various contexts",
+            "10461": "references to confidence and self-assurance",
+            "1206": " references to face-to-face interactions and communications",
+            "8934": "references to blood and related terms",
+            "1973": "references to relationships with loved ones and themes of loss and mourning",
+            "8032": " references to \"late\" or \"lateness\"",
+            "5627": "instances of the word \"that\" in various forms",
+            "517": "mentions of groups or organizations involving the word \"people.\"",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "8751": "phrases related to deception and misleading information",
+            "12726": "intensifiers and adverbs that amplify expression",
+            "2229": " punctuation marks, particularly periods and dollar signs",
+            "2669": "future actions or intentions indicated by the phrase \"going to.\"",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "7400": "repeated conjunctions or phrases indicating addition or emphasis",
+            "15509": "words likely to be near the end of sentences",
+            "3141": "references to phones and phone-related terms",
+            "2478": "instances of the word \"let\" in various formats",
+            "6887": "references to concepts or notions related to 'ideas' and their attributes",
+            "2222": "features or characteristics of academic research articles.",
+            "1858": "punctuation marks and sentence endings",
+            "10648": " phrases indicating recommendations or advice",
+            "11666": "instances of the word \"but\" in various contexts",
+            "16331": "technical specifications and compatibility related to software or systems",
+            "9192": "phrases indicating possession or ownership",
+            "6840": " occurrences of the word \"in\" and its variations",
+            "12569": " occurrences of the word \"call\" in various contexts"
+        }
+    },
+    {
+        "ID": "prompt14",
+        "uncommon_latents": [
+            "16123",
+            "4038",
+            "4223",
+            "8663",
+            "918"
+        ],
+        "latent_autointerp": {
+            "16123": "negations and the concept of absence in statements",
+            "4038": "expressions related to knowledge and understanding",
+            "4223": "questions and conditional statements related to requirements and criteria",
+            "8663": "references to the concept of lacking or the absence of various elements",
+            "918": "words and phrases that ask questions or prompt actions related to decision-making"
+        }
+    },
+    {
+        "ID": "prompt15",
+        "uncommon_latents": [
+            "10134",
+            "10406",
+            "7576",
+            "12935",
+            "4539"
+        ],
+        "latent_autointerp": {
+            "10134": "terms related to social and economic policies, particularly those involving subsidies and their implications",
+            "10406": "phrases indicating convenience or simplicity in actions or tasks",
+            "7576": " interrogative phrases or questions",
+            "12935": "questions related to economic efficiency, fairness, and environmental impact",
+            "4539": "references to individuals or entities involved in claims or rumors"
+        }
+    },
+    {
+        "ID": "prompt16",
+        "uncommon_latents": [
+            "15623",
+            "4725",
+            "9982",
+            "7562",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "15623": "terms related to electric vehicles and their manufacturers",
+            "4725": "references related to the word \"Can\" or variations of \"Can\" in different contexts",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "7562": "code snippets and technical questions in the context of programming.",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt17",
+        "uncommon_latents": [
+            "5816",
+            "4223",
+            "15416",
+            "6214",
+            "4797",
+            "10873",
+            "7699",
+            "10674",
+            "7936",
+            "11545"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "4223": "questions and conditional statements related to requirements and criteria",
+            "15416": "expressions indicating global scope or widespread occurrences",
+            "6214": " instances of the word \"want\" and its variations, indicating desires or wishes",
+            "4797": "forms of the verb \"have.\"",
+            "10873": "sentences beginning with the subject \"I.\"",
+            "7699": " the phrase \"into\" in various contexts",
+            "10674": "commands and queries related to searching or observation",
+            "7936": "the word \"just\" in various contexts",
+            "11545": " instances of possessive forms and plurality in nouns"
+        }
+    },
+    {
+        "ID": "prompt18",
+        "uncommon_latents": [
+            "9982",
+            "11092",
+            "12706",
+            "7576"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "12706": "questions about how to perform tasks or actions",
+            "7576": " interrogative phrases or questions"
+        }
+    },
+    {
+        "ID": "prompt19",
+        "uncommon_latents": [
+            "4223"
+        ],
+        "latent_autointerp": {
+            "4223": "questions and conditional statements related to requirements and criteria"
+        }
+    },
+    {
+        "ID": "prompt20",
+        "uncommon_latents": [
+            "8598",
+            "439",
+            "411",
+            "15509",
+            "4223",
+            "9192",
+            "4351",
+            "8713",
+            "8112",
+            "11795",
+            "15156",
+            "11545"
+        ],
+        "latent_autointerp": {
+            "8598": "various forms and mentions of the word \"card,\" likely indicating topics related to card games or credit cards",
+            "439": "repetitions of the word \"can\"",
+            "411": "pronouns and references to people in various contexts",
+            "15509": "words likely to be near the end of sentences",
+            "4223": "questions and conditional statements related to requirements and criteria",
+            "9192": "phrases indicating possession or ownership",
+            "4351": "references to quantities or statistics",
+            "8713": "phrases that indicate addressing or overcoming challenges",
+            "8112": "questions that seek information or clarification",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "15156": "medical and health-related information regarding breast density and associated laws and procedures.",
+            "11545": " instances of possessive forms and plurality in nouns"
+        }
+    },
+    {
+        "ID": "prompt21",
+        "uncommon_latents": [
+            "3442",
+            "2718",
+            "5421"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text",
+            "2718": "positive superlative adjectives indicating quality",
+            "5421": "phrases describing methods or strategies"
+        }
+    },
+    {
+        "ID": "prompt22",
+        "uncommon_latents": [
+            "4223"
+        ],
+        "latent_autointerp": {
+            "4223": "questions and conditional statements related to requirements and criteria"
+        }
+    },
+    {
+        "ID": "prompt23",
+        "uncommon_latents": [
+            "2222",
+            "13113"
+        ],
+        "latent_autointerp": {
+            "2222": "features or characteristics of academic research articles.",
+            "13113": "terms related to the \"get\" function in programming contexts"
+        }
+    },
+    {
+        "ID": "prompt24",
+        "uncommon_latents": [],
+        "latent_autointerp": {}
+    },
+    {
+        "ID": "prompt25",
+        "uncommon_latents": [
+            "15850",
+            "4430",
+            "2351",
+            "7207",
+            "2562",
+            "2222",
+            "4863",
+            "9982",
+            "7400",
+            "6850",
+            "6635",
+            "13469",
+            "12261",
+            "10192",
+            "12513",
+            "2726",
+            "11545"
+        ],
+        "latent_autointerp": {
+            "15850": "names of places, especially cities and regions.",
+            "4430": "instances of the word \"so\" in various contexts",
+            "2351": "articles and demonstrative adjectives emphasizing the indefinite article \"an.\"",
+            "7207": "references to the word \"home\" and related concepts",
+            "2562": "terms related to electrical charge and currents",
+            "2222": "features or characteristics of academic research articles.",
+            "4863": "instances of the word \"go\" and its variations",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "7400": "repeated conjunctions or phrases indicating addition or emphasis",
+            "6850": "the repetition of the word \"number.\"",
+            "6635": "terms related to shipping policies and costs",
+            "13469": "pronouns and their associated verbs indicating potential actions or commitments",
+            "12261": "instances of the preposition \"to\" in various contexts",
+            "10192": "modal verbs indicating possibility or necessity",
+            "12513": "terms related to emptiness or lack of content",
+            "2726": "technical specifications related to battery systems",
+            "11545": " instances of possessive forms and plurality in nouns"
+        }
+    },
+    {
+        "ID": "prompt26",
+        "uncommon_latents": [
+            "2229",
+            "9248",
+            "2913",
+            "10461",
+            "14537",
+            "1895",
+            "4629",
+            "4797",
+            "10192",
+            "10302",
+            "4615"
+        ],
+        "latent_autointerp": {
+            "2229": " punctuation marks, particularly periods and dollar signs",
+            "9248": " phrases indicating the passage of time or events occurring in the past",
+            "2913": " phrases related to the importance and perception of faith and religion",
+            "10461": "references to confidence and self-assurance",
+            "14537": "repeated occurrences of the word \"the\" in various contexts",
+            "1895": "references to the word \"Great\" and its variations in text",
+            "4629": "forms of the verb \"make\" in various contexts",
+            "4797": "forms of the verb \"have.\"",
+            "10192": "modal verbs indicating possibility or necessity",
+            "10302": "terms and phrases associated with money and its various uses",
+            "4615": " conditional phrases or clauses"
+        }
+    },
+    {
+        "ID": "prompt27",
+        "uncommon_latents": [],
+        "latent_autointerp": {}
+    },
+    {
+        "ID": "prompt28",
+        "uncommon_latents": [
+            "9909",
+            "6613",
+            "8310",
+            "4223",
+            "10461",
+            "9470",
+            "11571",
+            "12261",
+            "4351",
+            "8794"
+        ],
+        "latent_autointerp": {
+            "9909": "references to digital technology and online interactions",
+            "6613": " expressions of knowledge and understanding related to personal beliefs and experiences",
+            "8310": "terms related to payment processing and financial transactions",
+            "4223": "questions and conditional statements related to requirements and criteria",
+            "10461": "references to confidence and self-assurance",
+            "9470": "the various forms of the word \"use\" in different contexts",
+            "11571": "questions and inquiries about various topics",
+            "12261": "instances of the preposition \"to\" in various contexts",
+            "4351": "references to quantities or statistics",
+            "8794": "personal pronouns and their variations in different contexts"
+        }
+    },
+    {
+        "ID": "prompt29",
+        "uncommon_latents": [
+            "5816",
+            "1392"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "1392": "references to people asking questions or seeking help"
+        }
+    },
+    {
+        "ID": "prompt30",
+        "uncommon_latents": [
+            "5816",
+            "2222",
+            "6295",
+            "7431",
+            "11545"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "2222": "features or characteristics of academic research articles.",
+            "6295": "terms related to motherhood and fatherhood",
+            "7431": " phrases that include variations of the word \"some.\"",
+            "11545": " instances of possessive forms and plurality in nouns"
+        }
+    },
+    {
+        "ID": "prompt31",
+        "uncommon_latents": [
+            "5816",
+            "8310",
+            "16123",
+            "10881",
+            "4038",
+            "10644",
+            "12458",
+            "6840",
+            "918",
+            "465",
+            "10873",
+            "10192",
+            "517",
+            "8663",
+            "12280"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "8310": "terms related to payment processing and financial transactions",
+            "16123": "negations and the concept of absence in statements",
+            "10881": "punctuation marks and their frequency in the text",
+            "4038": "expressions related to knowledge and understanding",
+            "10644": "locations or contexts indicated by the word \"where\"",
+            "12458": " instances of discussions related to community events and public gatherings",
+            "6840": " occurrences of the word \"in\" and its variations",
+            "918": "words and phrases that ask questions or prompt actions related to decision-making",
+            "465": "mentions of geographical or significant locations",
+            "10873": "sentences beginning with the subject \"I.\"",
+            "10192": "modal verbs indicating possibility or necessity",
+            "517": "mentions of groups or organizations involving the word \"people.\"",
+            "8663": "references to the concept of lacking or the absence of various elements",
+            "12280": " instances of the word \"read\" and its variations"
+        }
+    },
+    {
+        "ID": "prompt32",
+        "uncommon_latents": [
+            "11092",
+            "8598",
+            "12706",
+            "7576"
+        ],
+        "latent_autointerp": {
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "8598": "various forms and mentions of the word \"card,\" likely indicating topics related to card games or credit cards",
+            "12706": "questions about how to perform tasks or actions",
+            "7576": " interrogative phrases or questions"
+        }
+    },
+    {
+        "ID": "prompt33",
+        "uncommon_latents": [
+            "7449",
+            "10920",
+            "10881",
+            "1536",
+            "13257",
+            "14537",
+            "2327",
+            "10873",
+            "3313",
+            "10936",
+            "13186",
+            "808",
+            "5816",
+            "1713",
+            "12285",
+            "1392",
+            "8684",
+            "10461",
+            "11108",
+            "5627",
+            "10192",
+            "15300",
+            "5158",
+            "6293",
+            "13478",
+            "9982",
+            "7970",
+            "7400",
+            "15509",
+            "1570",
+            "157",
+            "8988",
+            "3617",
+            "2478",
+            "4288",
+            "8598",
+            "8939",
+            "1858",
+            "10648",
+            "11583",
+            "4674",
+            "2634",
+            "12261",
+            "968"
+        ],
+        "latent_autointerp": {
+            "7449": " the word 'to' and its variations in different contexts",
+            "10920": "references to family planning and familial relationships",
+            "10881": "punctuation marks and their frequency in the text",
+            "1536": "references to healthcare policies or organizations",
+            "13257": " phrases indicating relationships or connections between people",
+            "14537": "repeated occurrences of the word \"the\" in various contexts",
+            "2327": "possessive pronouns and references to ownership",
+            "10873": "sentences beginning with the subject \"I.\"",
+            "3313": "repeated use of the word \"once\"",
+            "10936": "references to interpersonal relationships and connections",
+            "13186": "possessive pronouns and related expressions indicating ownership",
+            "808": "exclamatory punctuation and expressions of strong emotion",
+            "5816": " instances of code and programming syntax",
+            "1713": "the word \"need\" in various forms, indicating a focus on necessity or requirement",
+            "12285": " instances of the word \"tell\" and its variations, indicating communication or requests for information",
+            "1392": "references to people asking questions or seeking help",
+            "8684": " technical jargon and programming-related terms",
+            "10461": "references to confidence and self-assurance",
+            "11108": " references to text messaging, text, and related formats",
+            "5627": "instances of the word \"that\" in various forms",
+            "10192": "modal verbs indicating possibility or necessity",
+            "15300": "information related to business practices and customer service",
+            "5158": "requests for assistance or guidance",
+            "6293": "references to sending or submitting information or messages",
+            "13478": "phrases that indicate communication or connection between parties",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "7970": " terms related to giving and receiving, particularly in contexts of requests or offers",
+            "7400": "repeated conjunctions or phrases indicating addition or emphasis",
+            "15509": "words likely to be near the end of sentences",
+            "1570": "mentions of death and related statistics",
+            "157": "verbs associated with laying down or placing something",
+            "8988": "the concept of \"removal\" or \"distance\" from a subject or situation",
+            "3617": "terms associated with hospitals and medical facilities",
+            "2478": "instances of the word \"let\" in various formats",
+            "4288": "terms related to receiving or accepting treatment",
+            "8598": "various forms and mentions of the word \"card,\" likely indicating topics related to card games or credit cards",
+            "8939": "variations of the verb \"run.\"",
+            "1858": "punctuation marks and sentence endings",
+            "10648": " phrases indicating recommendations or advice",
+            "11583": "information related to injuries and illnesses affecting individuals in various contexts",
+            "4674": "terms related to payment or financial transactions",
+            "2634": "references to financial transactions and economic considerations",
+            "12261": "instances of the preposition \"to\" in various contexts",
+            "968": "prepositions indicating location or time"
+        }
+    },
+    {
+        "ID": "prompt34",
+        "uncommon_latents": [
+            "4725",
+            "12459",
+            "15538",
+            "4351",
+            "125",
+            "11904"
+        ],
+        "latent_autointerp": {
+            "4725": "references related to the word \"Can\" or variations of \"Can\" in different contexts",
+            "12459": "phrases indicating the importance or relevance of certain concepts",
+            "15538": "instances of the word \"got\" and its variations",
+            "4351": "references to quantities or statistics",
+            "125": "financial terms and conditions related to credit cards and payments",
+            "11904": "phrases indicating personal intention or desire"
+        }
+    },
+    {
+        "ID": "prompt35",
+        "uncommon_latents": [
+            "2562",
+            "2222",
+            "6684",
+            "11092",
+            "6850",
+            "7576",
+            "12706",
+            "6027",
+            "2726",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "2562": "terms related to electrical charge and currents",
+            "2222": "features or characteristics of academic research articles.",
+            "6684": "words and phrases expressing negation or absence",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "6850": "the repetition of the word \"number.\"",
+            "7576": " interrogative phrases or questions",
+            "12706": "questions about how to perform tasks or actions",
+            "6027": " instances of the word \"for.\"",
+            "2726": "technical specifications related to battery systems",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt36",
+        "uncommon_latents": [
+            "13006",
+            "713",
+            "8310",
+            "9248",
+            "9982",
+            "5421",
+            "7933"
+        ],
+        "latent_autointerp": {
+            "13006": "references to Swaziland or variations of the word \"Swazi\"",
+            "713": "instances of negation regarding existence or occurrence",
+            "8310": "terms related to payment processing and financial transactions",
+            "9248": " phrases indicating the passage of time or events occurring in the past",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "5421": "phrases describing methods or strategies",
+            "7933": "questions or statements about existence or verification"
+        }
+    },
+    {
+        "ID": "prompt37",
+        "uncommon_latents": [
+            "5816",
+            "4725",
+            "7443",
+            "7400",
+            "15538",
+            "11904",
+            "11545"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "4725": "references related to the word \"Can\" or variations of \"Can\" in different contexts",
+            "7443": "specific names and references related to authors or contributors in a document",
+            "7400": "repeated conjunctions or phrases indicating addition or emphasis",
+            "15538": "instances of the word \"got\" and its variations",
+            "11904": "phrases indicating personal intention or desire",
+            "11545": " instances of possessive forms and plurality in nouns"
+        }
+    },
+    {
+        "ID": "prompt38",
+        "uncommon_latents": [
+            "2229",
+            "5816",
+            "8598",
+            "7443",
+            "6214",
+            "11795",
+            "2161",
+            "11545"
+        ],
+        "latent_autointerp": {
+            "2229": " punctuation marks, particularly periods and dollar signs",
+            "5816": " instances of code and programming syntax",
+            "8598": "various forms and mentions of the word \"card,\" likely indicating topics related to card games or credit cards",
+            "7443": "specific names and references related to authors or contributors in a document",
+            "6214": " instances of the word \"want\" and its variations, indicating desires or wishes",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "2161": " phrases expressing negativity or dissatisfaction",
+            "11545": " instances of possessive forms and plurality in nouns"
+        }
+    },
+    {
+        "ID": "prompt39",
+        "uncommon_latents": [
+            "4629",
+            "7431"
+        ],
+        "latent_autointerp": {
+            "4629": "forms of the verb \"make\" in various contexts",
+            "7431": " phrases that include variations of the word \"some.\""
+        }
+    },
+    {
+        "ID": "prompt40",
+        "uncommon_latents": [
+            "3442",
+            "15074",
+            "4223",
+            "8707"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text",
+            "15074": "interrogative phrases and questions",
+            "4223": "questions and conditional statements related to requirements and criteria",
+            "8707": "verbs related to obtaining or receiving assistance or feedback"
+        }
+    },
+    {
+        "ID": "prompt41",
+        "uncommon_latents": [
+            "3723",
+            "8598",
+            "10406"
+        ],
+        "latent_autointerp": {
+            "3723": "terms related to legal offenses and criminal behavior",
+            "8598": "various forms and mentions of the word \"card,\" likely indicating topics related to card games or credit cards",
+            "10406": "phrases indicating convenience or simplicity in actions or tasks"
+        }
+    },
+    {
+        "ID": "prompt42",
+        "uncommon_latents": [
+            "5816",
+            "13685",
+            "2222",
+            "1392",
+            "11092",
+            "7576",
+            "12706"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "13685": "references to document handling or printing processes in a computing context",
+            "2222": "features or characteristics of academic research articles.",
+            "1392": "references to people asking questions or seeking help",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "7576": " interrogative phrases or questions",
+            "12706": "questions about how to perform tasks or actions"
+        }
+    },
+    {
+        "ID": "prompt43",
+        "uncommon_latents": [
+            "662",
+            "2954",
+            "8576"
+        ],
+        "latent_autointerp": {
+            "662": "references to the Internet and online activities",
+            "2954": "terms related to buying or purchasing",
+            "8576": " instances of the definite article \"the\" in various contexts"
+        }
+    },
+    {
+        "ID": "prompt44",
+        "uncommon_latents": [
+            "125",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "125": "financial terms and conditions related to credit cards and payments",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt45",
+        "uncommon_latents": [
+            "11092",
+            "7576",
+            "4674",
+            "12706",
+            "13186"
+        ],
+        "latent_autointerp": {
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "7576": " interrogative phrases or questions",
+            "4674": "terms related to payment or financial transactions",
+            "12706": "questions about how to perform tasks or actions",
+            "13186": "possessive pronouns and related expressions indicating ownership"
+        }
+    },
+    {
+        "ID": "prompt46",
+        "uncommon_latents": [
+            "6913",
+            "15538",
+            "2668"
+        ],
+        "latent_autointerp": {
+            "6913": "words related to usage and application of techniques or methods",
+            "15538": "instances of the word \"got\" and its variations",
+            "2668": "phrases indicating the absence or lack of something"
+        }
+    },
+    {
+        "ID": "prompt47",
+        "uncommon_latents": [
+            "11092",
+            "7576",
+            "12706",
+            "7699",
+            "13113"
+        ],
+        "latent_autointerp": {
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "7576": " interrogative phrases or questions",
+            "12706": "questions about how to perform tasks or actions",
+            "7699": " the phrase \"into\" in various contexts",
+            "13113": "terms related to the \"get\" function in programming contexts"
+        }
+    },
+    {
+        "ID": "prompt48",
+        "uncommon_latents": [
+            "994"
+        ],
+        "latent_autointerp": {
+            "994": "the possessive form of \"is\" or \"are\" in varied contexts"
+        }
+    },
+    {
+        "ID": "prompt49",
+        "uncommon_latents": [
+            "12204",
+            "9982",
+            "2697",
+            "13010",
+            "13346",
+            "7271",
+            "9192",
+            "13853",
+            "11299",
+            "11795",
+            "452",
+            "8713",
+            "517",
+            "1058",
+            "12726"
+        ],
+        "latent_autointerp": {
+            "12204": " expressions of curiosity or contemplation",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "2697": "words related to listening or hearing",
+            "13010": " occurrences of the pronoun \"I\" and related expressions of self-reference",
+            "13346": " expressions of personal feelings or states of being",
+            "7271": "phrases and questions related to location or seeking information about places",
+            "9192": "phrases indicating possession or ownership",
+            "13853": "discussions around beliefs and decisions",
+            "11299": "references to skills or skill sets in various contexts",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "452": "questions and phrases about origins and directions",
+            "8713": "phrases that indicate addressing or overcoming challenges",
+            "517": "mentions of groups or organizations involving the word \"people.\"",
+            "1058": "phrases or expressions that emphasize examples or specific instances",
+            "12726": "intensifiers and adverbs that amplify expression"
+        }
+    },
+    {
+        "ID": "prompt50",
+        "uncommon_latents": [
+            "10134",
+            "2562",
+            "9982",
+            "15538",
+            "2668",
+            "125",
+            "1139"
+        ],
+        "latent_autointerp": {
+            "10134": "terms related to social and economic policies, particularly those involving subsidies and their implications",
+            "2562": "terms related to electrical charge and currents",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "15538": "instances of the word \"got\" and its variations",
+            "2668": "phrases indicating the absence or lack of something",
+            "125": "financial terms and conditions related to credit cards and payments",
+            "1139": "references to problematic situations or conflicts that cause trouble"
+        }
+    },
+    {
+        "ID": "prompt51",
+        "uncommon_latents": [
+            "3442"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt52",
+        "uncommon_latents": [
+            "2351",
+            "10406",
+            "13334",
+            "8684",
+            "5421",
+            "15829"
+        ],
+        "latent_autointerp": {
+            "2351": "articles and demonstrative adjectives emphasizing the indefinite article \"an.\"",
+            "10406": "phrases indicating convenience or simplicity in actions or tasks",
+            "13334": "references to data privacy and personal information security",
+            "8684": " technical jargon and programming-related terms",
+            "5421": "phrases describing methods or strategies",
+            "15829": "questions and inquiries, particularly those seeking explanations or answers"
+        }
+    },
+    {
+        "ID": "prompt53",
+        "uncommon_latents": [
+            "9030",
+            "5816",
+            "4725",
+            "1392",
+            "14796",
+            "11904"
+        ],
+        "latent_autointerp": {
+            "9030": " references to specific days of the week and notable figures",
+            "5816": " instances of code and programming syntax",
+            "4725": "references related to the word \"Can\" or variations of \"Can\" in different contexts",
+            "1392": "references to people asking questions or seeking help",
+            "14796": "phrases and terms related to consent and approval processes in various contexts",
+            "11904": "phrases indicating personal intention or desire"
+        }
+    },
+    {
+        "ID": "prompt54",
+        "uncommon_latents": [
+            "7449",
+            "10406",
+            "15596",
+            "4223",
+            "4629",
+            "968",
+            "10302"
+        ],
+        "latent_autointerp": {
+            "7449": " the word 'to' and its variations in different contexts",
+            "10406": "phrases indicating convenience or simplicity in actions or tasks",
+            "15596": "past and present tense forms of the verb \"to be\" in various contexts",
+            "4223": "questions and conditional statements related to requirements and criteria",
+            "4629": "forms of the verb \"make\" in various contexts",
+            "968": "prepositions indicating location or time",
+            "10302": "terms and phrases associated with money and its various uses"
+        }
+    },
+    {
+        "ID": "prompt55",
+        "uncommon_latents": [
+            "8598",
+            "10810",
+            "5421",
+            "7098",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "8598": "various forms and mentions of the word \"card,\" likely indicating topics related to card games or credit cards",
+            "10810": "words related to safety and protection",
+            "5421": "phrases describing methods or strategies",
+            "7098": "references to suicide and self-harm",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt56",
+        "uncommon_latents": [
+            "2222",
+            "439",
+            "14111",
+            "10881",
+            "2697",
+            "11593",
+            "6027",
+            "11795"
+        ],
+        "latent_autointerp": {
+            "2222": "features or characteristics of academic research articles.",
+            "439": "repetitions of the word \"can\"",
+            "14111": " instances of the word \"find\" and its variants",
+            "10881": "punctuation marks and their frequency in the text",
+            "2697": "words related to listening or hearing",
+            "11593": "references to various items like songs, code snippets, and mathematical calculations.",
+            "6027": " instances of the word \"for.\"",
+            "11795": "the phrase \"The\" at the start of sentences"
+        }
+    },
+    {
+        "ID": "prompt57",
+        "uncommon_latents": [
+            "5816",
+            "1392"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "1392": "references to people asking questions or seeking help"
+        }
+    },
+    {
+        "ID": "prompt58",
+        "uncommon_latents": [
+            "662",
+            "8598",
+            "2222",
+            "2954",
+            "11092",
+            "7576",
+            "12238",
+            "12706"
+        ],
+        "latent_autointerp": {
+            "662": "references to the Internet and online activities",
+            "8598": "various forms and mentions of the word \"card,\" likely indicating topics related to card games or credit cards",
+            "2222": "features or characteristics of academic research articles.",
+            "2954": "terms related to buying or purchasing",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "7576": " interrogative phrases or questions",
+            "12238": "the term \"dark\" or variations of it in various contexts",
+            "12706": "questions about how to perform tasks or actions"
+        }
+    },
+    {
+        "ID": "prompt59",
+        "uncommon_latents": [
+            "14425",
+            "4430",
+            "8310",
+            "439",
+            "14111",
+            "5407",
+            "15509",
+            "6214",
+            "13469",
+            "12261",
+            "5627",
+            "11795",
+            "11904",
+            "12083",
+            "4537"
+        ],
+        "latent_autointerp": {
+            "14425": "instances of the word \"never.\"",
+            "4430": "instances of the word \"so\" in various contexts",
+            "8310": "terms related to payment processing and financial transactions",
+            "439": "repetitions of the word \"can\"",
+            "14111": " instances of the word \"find\" and its variants",
+            "5407": "instances of the word \"provide\" and its variations, indicating discussions about giving or offering something",
+            "15509": "words likely to be near the end of sentences",
+            "6214": " instances of the word \"want\" and its variations, indicating desires or wishes",
+            "13469": "pronouns and their associated verbs indicating potential actions or commitments",
+            "12261": "instances of the preposition \"to\" in various contexts",
+            "5627": "instances of the word \"that\" in various forms",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "11904": "phrases indicating personal intention or desire",
+            "12083": "references to companies and organizations, especially in a business context",
+            "4537": " phrases expressing uncertainty or requests for help"
+        }
+    },
+    {
+        "ID": "prompt60",
+        "uncommon_latents": [
+            "5816",
+            "11092",
+            "7576",
+            "6840",
+            "12706",
+            "125",
+            "3442",
+            "3800",
+            "13113"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "7576": " interrogative phrases or questions",
+            "6840": " occurrences of the word \"in\" and its variations",
+            "12706": "questions about how to perform tasks or actions",
+            "125": "financial terms and conditions related to credit cards and payments",
+            "3442": "questions and inquiries throughout the text",
+            "3800": "references to languages or terms related to linguistic studies",
+            "13113": "terms related to the \"get\" function in programming contexts"
+        }
+    },
+    {
+        "ID": "prompt61",
+        "uncommon_latents": [
+            "5816",
+            "8598",
+            "713",
+            "9982",
+            "14921",
+            "7933",
+            "3113",
+            "517",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "8598": "various forms and mentions of the word \"card,\" likely indicating topics related to card games or credit cards",
+            "713": "instances of negation regarding existence or occurrence",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "14921": "keywords related to machine learning and artificial intelligence",
+            "7933": "questions or statements about existence or verification",
+            "3113": "mentions of technology components and troubleshooting in a technical context.",
+            "517": "mentions of groups or organizations involving the word \"people.\"",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt62",
+        "uncommon_latents": [
+            "9982",
+            "13346"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text",
+            "13346": " expressions of personal feelings or states of being"
+        }
+    },
+    {
+        "ID": "prompt63",
+        "uncommon_latents": [
+            "11092",
+            "7576"
+        ],
+        "latent_autointerp": {
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "7576": " interrogative phrases or questions"
+        }
+    },
+    {
+        "ID": "prompt64",
+        "uncommon_latents": [
+            "9850",
+            "1564",
+            "10873"
+        ],
+        "latent_autointerp": {
+            "9850": " instances of the word \"up\" in various contexts",
+            "1564": "references to the word \"this\" in various contexts",
+            "10873": "sentences beginning with the subject \"I.\""
+        }
+    },
+    {
+        "ID": "prompt65",
+        "uncommon_latents": [
+            "7449",
+            "5162",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "7449": " the word 'to' and its variations in different contexts",
+            "5162": "questions that begin with \"how,\" \"what,\" or \"where.\"",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt66",
+        "uncommon_latents": [
+            "15509",
+            "6456",
+            "13700"
+        ],
+        "latent_autointerp": {
+            "15509": "words likely to be near the end of sentences",
+            "6456": "terms related to human rights and humanitarian issues",
+            "13700": "references to species comparisons and interactions, particularly between humans and other mammals"
+        }
+    },
+    {
+        "ID": "prompt67",
+        "uncommon_latents": [],
+        "latent_autointerp": {}
+    },
+    {
+        "ID": "prompt68",
+        "uncommon_latents": [
+            "1392"
+        ],
+        "latent_autointerp": {
+            "1392": "references to people asking questions or seeking help"
+        }
+    },
+    {
+        "ID": "prompt69",
+        "uncommon_latents": [
+            "6840",
+            "517",
+            "11620",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "6840": " occurrences of the word \"in\" and its variations",
+            "517": "mentions of groups or organizations involving the word \"people.\"",
+            "11620": " instances related to vehicles and driving experiences",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt70",
+        "uncommon_latents": [
+            "3442",
+            "16335",
+            "6557"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text",
+            "16335": "references to physical confrontation and violence",
+            "6557": "legal terms and phrases related to criminal charges and legal proceedings"
+        }
+    },
+    {
+        "ID": "prompt71",
+        "uncommon_latents": [
+            "10881",
+            "7182",
+            "15596",
+            "6932",
+            "15721",
+            "13726",
+            "3713",
+            "10461",
+            "908",
+            "12935",
+            "4442",
+            "4615",
+            "11949",
+            "9982",
+            "7251",
+            "1217",
+            "4893",
+            "3215",
+            "563",
+            "3204",
+            "8519"
+        ],
+        "latent_autointerp": {
+            "10881": "punctuation marks and their frequency in the text",
+            "7182": " references to legal terms and actions",
+            "15596": "past and present tense forms of the verb \"to be\" in various contexts",
+            "6932": "conversation excerpts related to personal relationships and daily life events.",
+            "15721": " phrases involving duration or conditions relating to time",
+            "13726": "phrases related to opinions and thoughtful considerations",
+            "3713": "repetitive uses of the word \"too\" and its variations",
+            "10461": "references to confidence and self-assurance",
+            "908": "quotation marks and other punctuation associated with dialogue or speech",
+            "12935": "questions related to economic efficiency, fairness, and environmental impact",
+            "4442": "instances of the word \"kill\" and its variations, highlighting themes of violence and death",
+            "4615": " conditional phrases or clauses",
+            "11949": "questions or inquiries regarding reasons and explanations",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "7251": "phrases indicating lack of certainty or denial regarding business dealings",
+            "1217": " occurrences of the word \"About\" or variations of it in different contexts",
+            "4893": "references to violence and threats to safety",
+            "3215": "adjectives that describe quality or condition",
+            "563": " expressions of agreement or affirmation",
+            "3204": "phrases that signal comparison or similarity",
+            "8519": "questions or references to identity"
+        }
+    },
+    {
+        "ID": "prompt72",
+        "uncommon_latents": [
+            "1828"
+        ],
+        "latent_autointerp": {
+            "1828": "terms related to severity and serious conditions"
+        }
+    },
+    {
+        "ID": "prompt73",
+        "uncommon_latents": [
+            "3442",
+            "3840"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text",
+            "3840": "phrases related to opportunities and suggestions for improvement"
+        }
+    },
+    {
+        "ID": "prompt74",
+        "uncommon_latents": [
+            "3442"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt75",
+        "uncommon_latents": [
+            "9982"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text"
+        }
+    },
+    {
+        "ID": "prompt76",
+        "uncommon_latents": [
+            "5816",
+            "7044",
+            "3442",
+            "16123"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "7044": "negative statements or contractions",
+            "3442": "questions and inquiries throughout the text",
+            "16123": "negations and the concept of absence in statements"
+        }
+    },
+    {
+        "ID": "prompt77",
+        "uncommon_latents": [
+            "15509"
+        ],
+        "latent_autointerp": {
+            "15509": "words likely to be near the end of sentences"
+        }
+    },
+    {
+        "ID": "prompt78",
+        "uncommon_latents": [],
+        "latent_autointerp": {}
+    },
+    {
+        "ID": "prompt79",
+        "uncommon_latents": [
+            "3442",
+            "3189"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text",
+            "3189": "references to individuals or groups of people"
+        }
+    },
+    {
+        "ID": "prompt80",
+        "uncommon_latents": [
+            "10648",
+            "2478",
+            "8684"
+        ],
+        "latent_autointerp": {
+            "10648": " phrases indicating recommendations or advice",
+            "2478": "instances of the word \"let\" in various formats",
+            "8684": " technical jargon and programming-related terms"
+        }
+    },
+    {
+        "ID": "prompt81",
+        "uncommon_latents": [
+            "13237",
+            "1713",
+            "1858",
+            "10881",
+            "15509",
+            "4932",
+            "10461",
+            "3368",
+            "12907",
+            "11795",
+            "4442",
+            "1564"
+        ],
+        "latent_autointerp": {
+            "13237": "terms related to warfare and military conflict",
+            "1713": "the word \"need\" in various forms, indicating a focus on necessity or requirement",
+            "1858": "punctuation marks and sentence endings",
+            "10881": "punctuation marks and their frequency in the text",
+            "15509": "words likely to be near the end of sentences",
+            "4932": "terms related to drug usage and its effects",
+            "10461": "references to confidence and self-assurance",
+            "3368": "statements expressing beliefs and opinions",
+            "12907": "the word \"each\" and its variants to identify collective or individual considerations",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "4442": "instances of the word \"kill\" and its variations, highlighting themes of violence and death",
+            "1564": "references to the word \"this\" in various contexts"
+        }
+    },
+    {
+        "ID": "prompt82",
+        "uncommon_latents": [
+            "7933",
+            "6241",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "7933": "questions or statements about existence or verification",
+            "6241": "terms and references related to guns and genetic concepts",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt83",
+        "uncommon_latents": [
+            "3442",
+            "12706",
+            "12935"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text",
+            "12706": "questions about how to perform tasks or actions",
+            "12935": "questions related to economic efficiency, fairness, and environmental impact"
+        }
+    },
+    {
+        "ID": "prompt84",
+        "uncommon_latents": [
+            "16123",
+            "15282",
+            "15596",
+            "918",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "16123": "negations and the concept of absence in statements",
+            "15282": "commands or prompts to think critically and reflectively",
+            "15596": "past and present tense forms of the verb \"to be\" in various contexts",
+            "918": "words and phrases that ask questions or prompt actions related to decision-making",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt85",
+        "uncommon_latents": [
+            "9982"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text"
+        }
+    },
+    {
+        "ID": "prompt86",
+        "uncommon_latents": [
+            "9982"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text"
+        }
+    },
+    {
+        "ID": "prompt87",
+        "uncommon_latents": [
+            "3442"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt88",
+        "uncommon_latents": [
+            "15829"
+        ],
+        "latent_autointerp": {
+            "15829": "questions and inquiries, particularly those seeking explanations or answers"
+        }
+    },
+    {
+        "ID": "prompt89",
+        "uncommon_latents": [
+            "9982"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text"
+        }
+    },
+    {
+        "ID": "prompt90",
+        "uncommon_latents": [
+            "9982",
+            "11092",
+            "7576",
+            "12706",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "7576": " interrogative phrases or questions",
+            "12706": "questions about how to perform tasks or actions",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt91",
+        "uncommon_latents": [
+            "9982"
+        ],
+        "latent_autointerp": {
+            "9982": "instances of the article \"a\" and its variations in text"
+        }
+    },
+    {
+        "ID": "prompt92",
+        "uncommon_latents": [
+            "3442",
+            "5482"
+        ],
+        "latent_autointerp": {
+            "3442": "questions and inquiries throughout the text",
+            "5482": "modal verbs that express intention or conditionality"
+        }
+    },
+    {
+        "ID": "prompt93",
+        "uncommon_latents": [],
+        "latent_autointerp": {}
+    },
+    {
+        "ID": "prompt94",
+        "uncommon_latents": [
+            "11092",
+            "12706",
+            "12935",
+            "7576"
+        ],
+        "latent_autointerp": {
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "12706": "questions about how to perform tasks or actions",
+            "12935": "questions related to economic efficiency, fairness, and environmental impact",
+            "7576": " interrogative phrases or questions"
+        }
+    },
+    {
+        "ID": "prompt95",
+        "uncommon_latents": [],
+        "latent_autointerp": {}
+    },
+    {
+        "ID": "prompt96",
+        "uncommon_latents": [
+            "11092",
+            "2351",
+            "12706",
+            "7576"
+        ],
+        "latent_autointerp": {
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "2351": "articles and demonstrative adjectives emphasizing the indefinite article \"an.\"",
+            "12706": "questions about how to perform tasks or actions",
+            "7576": " interrogative phrases or questions"
+        }
+    },
+    {
+        "ID": "prompt97",
+        "uncommon_latents": [],
+        "latent_autointerp": {}
+    },
+    {
+        "ID": "prompt98",
+        "uncommon_latents": [
+            "16186",
+            "2229"
+        ],
+        "latent_autointerp": {
+            "16186": "instances of uncertainty or confusion regarding a situation",
+            "2229": " punctuation marks, particularly periods and dollar signs"
+        }
+    },
+    {
+        "ID": "prompt99",
+        "uncommon_latents": [
+            "2229",
+            "5399",
+            "15596",
+            "3234",
+            "5627",
+            "517",
+            "5665"
+        ],
+        "latent_autointerp": {
+            "2229": " punctuation marks, particularly periods and dollar signs",
+            "5399": "references to marijuana and its legalization",
+            "15596": "past and present tense forms of the verb \"to be\" in various contexts",
+            "3234": "specific references to criminal cases and legal terminology",
+            "5627": "instances of the word \"that\" in various forms",
+            "517": "mentions of groups or organizations involving the word \"people.\"",
+            "5665": " phrases that emphasize the concept of \"all\" or totality"
+        }
+    },
+    {
+        "ID": "prompt100",
+        "uncommon_latents": [
+            "2229",
+            "8112",
+            "10406",
+            "14787",
+            "9982",
+            "11462",
+            "2521",
+            "14537",
+            "6214",
+            "15538",
+            "10873",
+            "10192",
+            "11795",
+            "11904",
+            "3442",
+            "12401"
+        ],
+        "latent_autointerp": {
+            "2229": " punctuation marks, particularly periods and dollar signs",
+            "8112": "questions that seek information or clarification",
+            "10406": "phrases indicating convenience or simplicity in actions or tasks",
+            "14787": " concepts related to learning and education",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "11462": "terms related to criminal law and offenses",
+            "2521": " phrases related to decision-making and choices",
+            "14537": "repeated occurrences of the word \"the\" in various contexts",
+            "6214": " instances of the word \"want\" and its variations, indicating desires or wishes",
+            "15538": "instances of the word \"got\" and its variations",
+            "10873": "sentences beginning with the subject \"I.\"",
+            "10192": "modal verbs indicating possibility or necessity",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "11904": "phrases indicating personal intention or desire",
+            "3442": "questions and inquiries throughout the text",
+            "12401": " statements and phrases about personal identity and moral integrity"
+        }
+    },
+    {
+        "ID": "prompt101",
+        "uncommon_latents": [
+            "15945",
+            "4430",
+            "1713",
+            "8115",
+            "6560",
+            "14857",
+            "12544",
+            "15596",
+            "8976",
+            "14537",
+            "10127",
+            "13469",
+            "5627",
+            "11264",
+            "517",
+            "12140"
+        ],
+        "latent_autointerp": {
+            "15945": "terms related to fighting against various forms of violence and discrimination",
+            "4430": "instances of the word \"so\" in various contexts",
+            "1713": "the word \"need\" in various forms, indicating a focus on necessity or requirement",
+            "8115": " occurrences of the word \"only\" and its variations",
+            "6560": "terms and concepts related to drugs and pharmaceuticals",
+            "14857": "words expressing strong opinions or calls to action",
+            "12544": "references to general concepts or ideas",
+            "15596": "past and present tense forms of the verb \"to be\" in various contexts",
+            "8976": "contexts related to \"off\" in various forms and combinations, especially in regard to actions or states of ceasing or separation",
+            "14537": "repeated occurrences of the word \"the\" in various contexts",
+            "10127": "phrases or commands related to leaving or exiting situations",
+            "13469": "pronouns and their associated verbs indicating potential actions or commitments",
+            "5627": "instances of the word \"that\" in various forms",
+            "11264": "language related to causes and effects",
+            "517": "mentions of groups or organizations involving the word \"people.\"",
+            "12140": " references to illegal drugs and their distribution"
+        }
+    },
+    {
+        "ID": "prompt102",
+        "uncommon_latents": [
+            "8927",
+            "2351",
+            "10406",
+            "13880",
+            "7400",
+            "4539"
+        ],
+        "latent_autointerp": {
+            "8927": "terms related to artificiality and deception",
+            "2351": "articles and demonstrative adjectives emphasizing the indefinite article \"an.\"",
+            "10406": "phrases indicating convenience or simplicity in actions or tasks",
+            "13880": "terms related to financial transactions and dividend payouts",
+            "7400": "repeated conjunctions or phrases indicating addition or emphasis",
+            "4539": "references to individuals or entities involved in claims or rumors"
+        }
+    },
+    {
+        "ID": "prompt103",
+        "uncommon_latents": [
+            "12706",
+            "7576"
+        ],
+        "latent_autointerp": {
+            "12706": "questions about how to perform tasks or actions",
+            "7576": " interrogative phrases or questions"
+        }
+    },
+    {
+        "ID": "prompt104",
+        "uncommon_latents": [
+            "9934",
+            "15282",
+            "11092",
+            "7576",
+            "3368",
+            "12706",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "9934": "phrases that express personal perception and belief systems",
+            "15282": "commands or prompts to think critically and reflectively",
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "7576": " interrogative phrases or questions",
+            "3368": "statements expressing beliefs and opinions",
+            "12706": "questions about how to perform tasks or actions",
+            "3442": "questions and inquiries throughout the text"
+        }
+    },
+    {
+        "ID": "prompt105",
+        "uncommon_latents": [
+            "11092",
+            "12706",
+            "7576",
+            "2821"
+        ],
+        "latent_autointerp": {
+            "11092": "repeated instances of the word \"do,\" indicating inquiries or actions proposed",
+            "12706": "questions about how to perform tasks or actions",
+            "7576": " interrogative phrases or questions",
+            "2821": "expressions indicating commitment and dedication"
+        }
+    },
+    {
+        "ID": "prompt106",
+        "uncommon_latents": [
+            "14005",
+            "12204",
+            "11862",
+            "13346",
+            "5768",
+            "12706",
+            "2668",
+            "10873",
+            "347",
+            "909",
+            "12351",
+            "4863",
+            "10161",
+            "7431",
+            "11795",
+            "11562",
+            "5158",
+            "9909",
+            "15509",
+            "15538",
+            "1858",
+            "6862",
+            "9192",
+            "4537"
+        ],
+        "latent_autointerp": {
+            "14005": " variations of the word \"catch.\"",
+            "12204": " expressions of curiosity or contemplation",
+            "11862": "modal verbs expressing possibility or potential",
+            "13346": " expressions of personal feelings or states of being",
+            "5768": "phrases related to food preparation and recipe creation",
+            "12706": "questions about how to perform tasks or actions",
+            "2668": "phrases indicating the absence or lack of something",
+            "10873": "sentences beginning with the subject \"I.\"",
+            "347": "phrases and concepts related to accountability and compliance",
+            "909": " expressions indicating uncertainty or inquiries about knowledge and understanding",
+            "12351": "expressions of strong opinions or feelings",
+            "4863": "instances of the word \"go\" and its variations",
+            "10161": " instances of the word \"here\" and its variations or synonyms",
+            "7431": " phrases that include variations of the word \"some.\"",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "11562": "expressions of consistent or habitual actions and feelings",
+            "5158": "requests for assistance or guidance",
+            "9909": "references to digital technology and online interactions",
+            "15509": "words likely to be near the end of sentences",
+            "15538": "instances of the word \"got\" and its variations",
+            "1858": "punctuation marks and sentence endings",
+            "6862": "negation expressions or phrases that suggest something is not true",
+            "9192": "phrases indicating possession or ownership",
+            "4537": " phrases expressing uncertainty or requests for help"
+        }
+    },
+    {
+        "ID": "prompt107",
+        "uncommon_latents": [
+            "5816",
+            "3985",
+            "439",
+            "10881",
+            "9982",
+            "1858",
+            "752",
+            "8406",
+            "9192",
+            "8707",
+            "69",
+            "13790",
+            "52",
+            "10873",
+            "3442",
+            "9385",
+            "13707"
+        ],
+        "latent_autointerp": {
+            "5816": " instances of code and programming syntax",
+            "3985": " references to demographics and their engagement in various activities or systems",
+            "439": "repetitions of the word \"can\"",
+            "10881": "punctuation marks and their frequency in the text",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "1858": "punctuation marks and sentence endings",
+            "752": "types of diabetes and other medical classifications",
+            "8406": "modal verbs indicating obligation or necessity",
+            "9192": "phrases indicating possession or ownership",
+            "8707": "verbs related to obtaining or receiving assistance or feedback",
+            "69": " expressions of inability or negation",
+            "13790": "instances of the word \"decide\" and its variations, indicating decisions or choices being made",
+            "52": " concepts related to problem-solving and improvement in various contexts",
+            "10873": "sentences beginning with the subject \"I.\"",
+            "3442": "questions and inquiries throughout the text",
+            "9385": "verbs associated with transformation or change",
+            "13707": "references to personal relationships and emotional connections"
+        }
+    },
+    {
+        "ID": "prompt108",
+        "uncommon_latents": [
+            "12711",
+            "713",
+            "16295",
+            "1858",
+            "9982",
+            "4845",
+            "14829",
+            "6840",
+            "14652",
+            "2604",
+            "15669",
+            "4289",
+            "16360"
+        ],
+        "latent_autointerp": {
+            "12711": "repeated phrases or patterns involving the word \"the\"",
+            "713": "instances of negation regarding existence or occurrence",
+            "16295": "significant terms and phrases related to scientific studies, particularly in the context of law, medicine, and research methodologies",
+            "1858": "punctuation marks and sentence endings",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "4845": "instances of the word \"Since\" and its various contextual usages",
+            "14829": " expressions of agreement or acknowledgment",
+            "6840": " occurrences of the word \"in\" and its variations",
+            "14652": "references to the future and its implications",
+            "2604": "phrases related to strong negative emotions.",
+            "15669": "repetitions of the phrase \"a lot.\"",
+            "4289": "phrases or constructions involving the preposition \"of\" in various contexts",
+            "16360": " modal verbs indicating future actions or possibilities"
+        }
+    },
+    {
+        "ID": "prompt109",
+        "uncommon_latents": [
+            "1969",
+            "10226",
+            "1858",
+            "3625",
+            "12985",
+            "8535",
+            "11369",
+            "12402",
+            "12726",
+            "15074"
+        ],
+        "latent_autointerp": {
+            "1969": "comparative language indicating an increase or enhancement",
+            "10226": "comparative expressions emphasizing superiority or inferiority",
+            "1858": "punctuation marks and sentence endings",
+            "3625": "countries involved in environmental regulations and agreements",
+            "12985": "the word \"much\" in various forms and contexts",
+            "8535": "questions starting with \"Why.\"",
+            "11369": "questions and reasons related to personal choices, experiences, and opinions.",
+            "12402": "references to male characters or figures",
+            "12726": "intensifiers and adverbs that amplify expression",
+            "15074": "interrogative phrases and questions"
+        }
+    },
+    {
+        "ID": "prompt110",
+        "uncommon_latents": [
+            "137",
+            "1858",
+            "7182",
+            "15509",
+            "3344",
+            "5751",
+            "8820",
+            "7263",
+            "11795",
+            "16003"
+        ],
+        "latent_autointerp": {
+            "137": "expressions of personal beliefs and thoughts",
+            "1858": "punctuation marks and sentence endings",
+            "7182": " references to legal terms and actions",
+            "15509": "words likely to be near the end of sentences",
+            "3344": " occurrences of the word \"It\" and its variations in context",
+            "5751": "terms related to various types of materials",
+            "8820": "references to ethical concerns and issues related to accountability",
+            "7263": "terms related to medical diagnostics and procedures involving neural and cardiac systems",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "16003": "references to the GL (OpenGL) framework and related graphical technology"
+        }
+    },
+    {
+        "ID": "prompt111",
+        "uncommon_latents": [
+            "8310",
+            "7576",
+            "2821",
+            "12706",
+            "15538",
+            "8988",
+            "4539"
+        ],
+        "latent_autointerp": {
+            "8310": "terms related to payment processing and financial transactions",
+            "7576": " interrogative phrases or questions",
+            "2821": "expressions indicating commitment and dedication",
+            "12706": "questions about how to perform tasks or actions",
+            "15538": "instances of the word \"got\" and its variations",
+            "8988": "the concept of \"removal\" or \"distance\" from a subject or situation",
+            "4539": "references to individuals or entities involved in claims or rumors"
+        }
+    },
+    {
+        "ID": "prompt112",
+        "uncommon_latents": [
+            "2019",
+            "1713",
+            "14111",
+            "9982",
+            "13346",
+            "3389",
+            "6027",
+            "12138",
+            "452",
+            "10873",
+            "3442",
+            "11462"
+        ],
+        "latent_autointerp": {
+            "2019": "terms related to job opportunities and employment",
+            "1713": "the word \"need\" in various forms, indicating a focus on necessity or requirement",
+            "14111": " instances of the word \"find\" and its variants",
+            "9982": "instances of the article \"a\" and its variations in text",
+            "13346": " expressions of personal feelings or states of being",
+            "3389": " phrases or words related to tasks or obligations",
+            "6027": " instances of the word \"for.\"",
+            "12138": "references to plans and planning terminology",
+            "452": "questions and phrases about origins and directions",
+            "10873": "sentences beginning with the subject \"I.\"",
+            "3442": "questions and inquiries throughout the text",
+            "11462": "terms related to criminal law and offenses"
+        }
+    },
+    {
+        "ID": "prompt113",
+        "uncommon_latents": [
+            "7576",
+            "12459",
+            "12706",
+            "517",
+            "3442",
+            "10302"
+        ],
+        "latent_autointerp": {
+            "7576": " interrogative phrases or questions",
+            "12459": "phrases indicating the importance or relevance of certain concepts",
+            "12706": "questions about how to perform tasks or actions",
+            "517": "mentions of groups or organizations involving the word \"people.\"",
+            "3442": "questions and inquiries throughout the text",
+            "10302": "terms and phrases associated with money and its various uses"
+        }
+    },
+    {
+        "ID": "prompt114",
+        "uncommon_latents": [
+            "10881",
+            "14537",
+            "12675",
+            "8707",
+            "9684",
+            "1713",
+            "7508",
+            "8684",
+            "10461",
+            "11434",
+            "517",
+            "11795",
+            "7397",
+            "2229",
+            "708",
+            "5638",
+            "1458",
+            "15509",
+            "15538",
+            "3461",
+            "9995",
+            "11302",
+            "8090",
+            "11462",
+            "2222",
+            "1858",
+            "6840",
+            "7405",
+            "571",
+            "6544"
+        ],
+        "latent_autointerp": {
+            "10881": "punctuation marks and their frequency in the text",
+            "14537": "repeated occurrences of the word \"the\" in various contexts",
+            "12675": "concepts related to structure and organization in both physical and abstract contexts",
+            "8707": "verbs related to obtaining or receiving assistance or feedback",
+            "9684": "terms related to medical and biological conditions",
+            "1713": "the word \"need\" in various forms, indicating a focus on necessity or requirement",
+            "7508": "quantifiers and discussions of scale or size",
+            "8684": " technical jargon and programming-related terms",
+            "10461": "references to confidence and self-assurance",
+            "11434": "terms related to programming and software development",
+            "517": "mentions of groups or organizations involving the word \"people.\"",
+            "11795": "the phrase \"The\" at the start of sentences",
+            "7397": "expressions of disappointment or misfortune",
+            "2229": " punctuation marks, particularly periods and dollar signs",
+            "708": " legal terminology related to witness testimony and evidence in court",
+            "5638": " phrases related to incarceration and legal detention status",
+            "1458": "phrases indicating negativity or criticism",
+            "15509": "words likely to be near the end of sentences",
+            "15538": "instances of the word \"got\" and its variations",
+            "3461": "instances of the verb \"take\" and its variations, indicating a focus on actions and responsibilities",
+            "9995": "phrases involving the action of \"putting.\"",
+            "11302": "first-person possessive pronouns",
+            "8090": "elements related to programs or initiatives involving collaboration, community involvement, or organizational participation",
+            "11462": "terms related to criminal law and offenses",
+            "2222": "features or characteristics of academic research articles.",
+            "1858": "punctuation marks and sentence endings",
+            "6840": " occurrences of the word \"in\" and its variations",
+            "7405": "references to care and caregiving in the context of health and wellness",
+            "571": "terms and phrases related to information",
+            "6544": "references to scientific terms and variables related to studies and measurements"
+        }
+    },
+    {
+        "ID": "prompt115",
+        "uncommon_latents": [
+            "8535",
+            "5122",
+            "3442"
+        ],
+        "latent_autointerp": {
+            "8535": "questions starting with \"Why.\"",
+            "5122": "adverbs and other modifiers that express frequency or manner",
+            "3442": "questions and inquiries throughout the text"
+        }
+    }
+]

@@ -1,0 +1,7 @@
+sae-lens 
+transformer-lens 
+sae-dashboard 
+huggingface_hub[cli] 
+tabulate 
+openai 
+ipywidgets
