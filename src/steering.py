@@ -46,7 +46,7 @@ def generate_with_steering(
     sae,
     prompt,
     latent_idx: int,
-    steering_coefficient: float = 1.0,
+    steering_coefficient: float,
     strength_multiple: float = 0.0,
     max_new_tokens: int = 50,
     temperature: float = 0.7,
@@ -114,15 +114,15 @@ def main(config_file: str, input_file: str, output_file: str):
             "output": no_steering_output
         })
 
-        #  Apply Steering for Multiple Iterations
-        for i in range(3):
+        #  Apply Steering for Each Coefficient
+        for steering_coefficient in config["unsafe_steering_coefficient"]:
             steered_output = generate_with_steering(
                 model,
                 sae,
                 prompt,
                 latent_idx,
-                steering_coefficient=config["unsafe_steering_coefficient"],
-                strength_multiple = config["strength_multiple"],
+                steering_coefficient=steering_coefficient,
+                strength_multiple=config["strength_multiple"],
                 max_new_tokens=config["max_new_tokens"],
                 temperature=config["temperature"],
                 freq_penalty=config["freq_penalty"],
@@ -132,12 +132,11 @@ def main(config_file: str, input_file: str, output_file: str):
             results.append({
                 "prompt": prompt,
                 "latent_idx": latent_idx,
-                "steering_coefficient": config["unsafe_steering_coefficient"],
-                "iteration": i,
+                "steering_coefficient": steering_coefficient,
                 "output": steered_output,
             })
 
-            table.add_row(f"Steered #{i}", f"{sae.cfg.neuronpedia_id.split('/')[1]}", steered_output)
+            table.add_row(f"Steered ({steering_coefficient})", f"{sae.cfg.neuronpedia_id.split('/')[1]}", steered_output)
 
     #  Save Results to File
     with open(output_file, "w") as f:
