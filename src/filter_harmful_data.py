@@ -6,7 +6,7 @@ def classify_harmful_latents_with_llm(dataset_path, output_file):
     """
     Uses OpenAI's GPT model to classify harmful latents based on predefined keywords.
     """
-    openai.api_key = "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"
+    openai.api_key = ""
     
     # Load dataset
     if dataset_path.endswith(".csv"):
