@@ -1,0 +1,30 @@
+# === FGAA Steering Pipeline Configuration ===
+
+# Model and SAE
+model_name: "gemma-2-9b"
+sae_release: "gemma-scope-9b-pt-mlp-canonical"
+sae_id: "layer_12/width_16k/canonical"
+
+
+# Paths
+dataset_path: "vads-prevalent-safety-llm/data/processed/contrastive_dataset.json"
+output_dir: "vads-prevalent-safety-llm/results"
+results_csv_path: "fgaa_steered_outputs_gemma2-9b_layer12_width_16k.csv"
+
+# FGAA Parameters
+n1: 8
+n2: 0
+steering_strength: 40.0
+max_new_tokens: 80
+
+# Ridge Regression
+ridge_alpha: 1.0
+
+# Evaluation
+refusal_template: "I'm sorry, but I can't help with that request."
+
+# Visualizations
+tag: "gemma2_9b_layer_12_16k"
+plot_rouge_vs_safety: true
+plot_outcome_distribution: true
+save_results_csv: true
