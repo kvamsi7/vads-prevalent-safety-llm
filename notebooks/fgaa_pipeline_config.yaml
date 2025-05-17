@@ -3,12 +3,13 @@
 # Model and SAE
 model_name: "gemma-2-9b"
 sae_release: "gemma-scope-9b-it-res-canonical"
-sae_id: "layer_20/width_16k/canonical"
+sae_id: "layer_31/width_131k/canonical"
+
 
 # Paths
 dataset_path: "vads-prevalent-safety-llm/data/processed/contrastive_dataset.json"
 output_dir: "vads-prevalent-safety-llm/results"
-results_csv_path: "fgaa_steered_outputs_gemma2-9b_layer20_width_16k_mlp.csv"
+results_csv_path: "fgaa_steered_outputs_gemma2-9b-it_layer31_width_131k_res.csv"
 
 # FGAA Parameters
 n1: 8
@@ -23,7 +24,7 @@ ridge_alpha: 1.0
 refusal_template: "I'm sorry, but I can't help with that request."
 
 # Visualizations
-tag: "gemma2_9b_layer_20_16k_mlp"
+tag: "gemma2_9b-it_layer_31_131k_res"
 plot_rouge_vs_safety: true
 plot_outcome_distribution: true
 save_results_csv: true
